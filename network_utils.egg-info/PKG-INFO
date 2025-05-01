@@ -7,6 +7,7 @@ Author-email: vishal.chainani@gmail.com
 Description-Content-Type: text/markdown
 Requires-Dist: argparse
 Requires-Dist: argcomplete
+Requires-Dist: setuptools-git-versioning<3,>=2.0
 Dynamic: author
 Dynamic: author-email
 Dynamic: description

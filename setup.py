@@ -10,9 +10,9 @@ setuptools.setup(
     long_description="A collection of network utilities",
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-    setuuptools_git_versioning={
+    setuptools_git_versioning={
         "enabled": True,
-    }
+    },
     entry_points={
         'console_scripts': [
             'network-utils=network_utils.entry:cli_entry_point'
