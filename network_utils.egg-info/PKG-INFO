@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: network-utils
+Version: 0.0.0
+Summary: A collection of network utilities
+Author: Vishal Chainani
+Author-email: vishal.chainani@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: argparse
+Requires-Dist: argcomplete
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary
+
+A collection of network utilities
