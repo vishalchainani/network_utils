@@ -9,7 +9,7 @@ def cli_entry_point():
     parser.add_argument('-v','--version', dest='command', action='store_const', const='version', help='Show version and exit')
     subparsers = parser.add_subparsers(dest='command', help='Available commands')
     passwd_generator_parser = subparsers.add_parser('passwd-generator', help='Generate a random password')
-    passwd_generator_parser.add_argument('--length', type=int, default=8, help='Length of the password')
+    passwd_generator_parser.add_argument('-l','--length', type=int, default=8, help='Length of the password')
     # print("This is the entry point for the network-utils CLI.")
     argcomplete.autocomplete(parser)
     args = parser.parse_args()
