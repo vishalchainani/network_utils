@@ -3,7 +3,6 @@ from distutils.core import setup
 
 setuptools.setup(
     name="network-utils",
-    # version="0.0.0",
     author="Vishal Chainani",
     author_email="vishal.chainani@gmail.com",
     description="A collection of network utilities",
